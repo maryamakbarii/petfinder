@@ -1,0 +1,58 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.NoActionBar.Bridge">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+<!--    <style name="AlertDialogTheme" parent="ThemeOverlay.MaterialComponents.Dialog.Alert">-->
+<!--        <item name="buttonBarPositiveButtonStyle">@style/Alert.Button.Positive</item>-->
+<!--        <item name="buttonBarNegativeButtonStyle">@style/Alert.Button.Negative</item>-->
+<!--        <item name="shapeAppearanceMediumComponent">@style/RoundShapeAppearance</item>-->
+
+<!--    </style>-->
+
+<!--    <style name="RoundShapeAppearance" parent="ShapeAppearance.MaterialComponents.MediumComponent">-->
+<!--        <item name="cornerFamily">rounded</item>-->
+<!--        <item name="cornerSize">16dp</item>-->
+<!--    </style>-->
+
+    <style name="Alert.Button.Positive" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="backgroundTint">@android:color/transparent</item>
+        <item name="rippleColor">@color/colorAccent</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="strokeColor">#ffffff</item>
+    </style>
+
+    <style name="Alert.Button.Negative" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="backgroundTint">@android:color/transparent</item>
+        <item name="rippleColor">@color/colorAccent</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="strokeColor">#ffffff</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="scrollbar_Style">
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:scrollbarStyle">outsideInset</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadeScrollbars">false</item>
+    </style>
+
+
+</resources>
